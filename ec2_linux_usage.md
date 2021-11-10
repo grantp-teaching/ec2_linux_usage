@@ -61,6 +61,11 @@ Enable to start
 Start now
 
 	sudo systemctl start httpd
+	
+How to check if httpd is running:
+Get process listing (ps aux) and filter (using grep) for httpd
+
+	ps aux | grep httpd
 
 Try to connect to your instance's public IP from your browser over HTTP (not HTTPS!).
 
