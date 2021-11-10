@@ -1,0 +1,19 @@
+    1  yum search apache
+    2  yum search mysql
+    3  sudo yum -y install httpd
+    4  sudo systemctl enable httpd
+    5  sudo systemctl start httpd
+    6  ps aux 
+    7  ps aux | grep httpd 
+    8  curl http://localhost
+    9  yum search links2
+   10  yum search links
+   11  sudo yum -y install elinks
+   12  elinks
+   13  curl http://localhost
+   14  elinks
+   15  git clone https://github.com/peadargrant/test_static_website
+   16  cd test*
+   17  ls -l
+   18  sudo cp * /var/www/html
+   19  history
