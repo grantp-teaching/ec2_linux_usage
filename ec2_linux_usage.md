@@ -23,6 +23,7 @@ Create an EC2 instance with the following setup using PowerShell:
 - Use `vockey` as key (to use web SSH console)
 
 Image ID:
+--image-id resolve:ssm:/aws/service/ami-amazon-linux-latest/amzn2-ami-hvm-x86_64-gp2
 
 
 Get a copy of your Powershell history.
