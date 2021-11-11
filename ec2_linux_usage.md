@@ -59,14 +59,14 @@ Use the `nano` text editor to modify this file some way.
 
 ## Searching for packages to install
 
-
+	yum search 
 
 
 ## Web server
 
 Install apache web server:
 
-	yum -y install httpd
+	sudo yum -y install httpd
 
 Enable to start
 
@@ -96,7 +96,9 @@ Try to connect from your browser again.
 For this exercise, use a STATIC website you have built yourself.
 Use SFTP to upload it to your instance.
 
-If you don't have one handy, you can get one at https://github.com/peadargrant/test_static_website
+If you don't have one handy, you can get one at:
+ https://github.com/peadargrant/test_static_website
+ 
 You can either use git to clone it to your desktop and then SFTP, or else just git directly on the EC2 instance.
 
 Web site is in /var/www/html
